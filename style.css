@@ -9,7 +9,6 @@ body {
 
 a:hover {
     color: black;
-    transition: ease all 0.3s;
 }
 
 * {
@@ -19,6 +18,7 @@ a:hover {
 a {
     text-decoration: none;
     color: #5f6368;
+    transition: ease all 0.3s;
 }
 
 nav {
@@ -45,13 +45,13 @@ img {
 .nav-text-logo {
     font-size: 1.2em;
     margin-right: 20px;
-    color: #5f6368;
+    color: #292c32;
 }
 
 .nav-text {
     font-size: 0.9em;
     margin-left: 10px;
-    color: #5f6368;
+    color:#5f6368;
 }
 
 #nav-text-logo {
@@ -127,8 +127,12 @@ img {
     color: white;
     font-weight: 600;
     margin: 0.5rem;
+    transition: all ease 0.3s;
 }
 
+.join-btn:hover, .load-btn:hover{
+    transform: scale(1.05);
+}
 
 #about {
     margin-top: 30px;
@@ -176,26 +180,31 @@ img {
     flex-wrap: wrap;
 }
 
+.profile{
+    color: #4285f4;
+    font-weight: bold;
+    opacity: 1;
+}
+
 p {
     font-size: 1em;
-    margin: 5px;
+    margin: 3px;
     color: black;
     opacity: 0.7;
 }
 
-.circle {
-    height: 175px;
+.profile-img{
+    border: 0.5px solid #cdd4dd;
     width: 175px;
     border-radius: 50%;
-    background-color: aqua;
     margin: 5px;
 }
 
-.square {
+.sqr-img{
     height: 250px;
     width: 250px;
     background-color: aqua;
-    margin: 5px;
+    margin: 1px;
     border: 0.5px solid #cdd4dd;
     border-radius: 0.3em;
 }
@@ -208,6 +217,7 @@ p {
     align-items: center;
     width: 100%;
     padding: 5px;
+   
 }
 
 .load-btn {
@@ -218,6 +228,7 @@ p {
     color: white;
     font-weight: 600;
     margin: 0.5rem;
+    transition: all ease 0.3s;
 }
 
 
@@ -244,7 +255,7 @@ p {
     justify-content:space-between;
      margin-bottom: 10px;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 650px){
     body {
         overflow-x: hidden; 
     }
@@ -331,12 +342,12 @@ p {
         margin: 0 auto 20px;
     }
 
-    .circle {
+    .profile-img {
         width: 150px;
         height: 150px;
     }
 
-    .square {
+    .sqr-img {
         width: 200px;
         height: 200px;
     }
