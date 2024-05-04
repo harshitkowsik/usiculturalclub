@@ -1,5 +1,9 @@
+* {
+    text-decoration: none;
+}
+
 body {
-    width:100%;
+    width: 100%;
     margin: 0px;
     font-family: 'Poppins';
     display: flex;
@@ -11,10 +15,6 @@ a:hover {
     color: black;
 }
 
-* {
-    text-decoration: none;
-}
-
 a {
     text-decoration: none;
     color: #5f6368;
@@ -24,7 +24,7 @@ a {
 nav {
     height: 11vh;
     box-shadow: 0px 0.4px 0.4px #949ba3;
-    width:100%;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -51,7 +51,7 @@ img {
 .nav-text {
     font-size: 0.9em;
     margin-left: 10px;
-    color:#5f6368;
+    color: #5f6368;
 }
 
 #nav-text-logo {
@@ -130,7 +130,8 @@ img {
     transition: all ease 0.3s;
 }
 
-.join-btn:hover, .load-btn:hover{
+.join-btn:hover,
+.load-btn:hover {
     transform: scale(1.05);
 }
 
@@ -180,7 +181,7 @@ img {
     flex-wrap: wrap;
 }
 
-.profile{
+.profile {
     color: #4285f4;
     font-weight: bold;
     opacity: 1;
@@ -193,14 +194,14 @@ p {
     opacity: 0.7;
 }
 
-.profile-img{
+.profile-img {
     border: 0.5px solid #cdd4dd;
     width: 175px;
     border-radius: 50%;
     margin: 5px;
 }
 
-.sqr-img{
+.sqr-img {
     height: 250px;
     width: 250px;
     background-color: aqua;
@@ -217,7 +218,7 @@ p {
     align-items: center;
     width: 100%;
     padding: 5px;
-   
+
 }
 
 .load-btn {
@@ -243,21 +244,22 @@ p {
     text-decoration: none;
 }
 
-.bottom-txt{
-    padding-left: 12vw; 
+.bottom-txt {
+    padding-left: 12vw;
     padding-right: 10vw;
-    font-size: 1rem; 
+    font-size: 1rem;
     opacity: 0.8;
 }
 
-.bottom-txt-content{
-    display:flex; 
-    justify-content:space-between;
-     margin-bottom: 10px;
+.bottom-txt-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
 }
-@media only screen and (max-width: 650px){
+
+@media only screen and (max-width: 650px) {
     body {
-        overflow-x: hidden; 
+        overflow-x: hidden;
     }
 
     nav {
@@ -274,21 +276,21 @@ p {
         margin: 0;
     }
 
-    .nav-text-logo{
+    .nav-text-logo {
         margin-right: 0px;
         font-size: 0.8rem;
     }
-    
 
-    #chapters{
+
+    #chapters {
         flex-direction: column;
     }
 
-    .nav-text{
+    .nav-text {
         display: none;
     }
 
-    
+
 
     .social-links {
         flex-direction: row;
@@ -334,7 +336,7 @@ p {
 
     .bottom-txt-content {
         font-size: 0.9em;
-        justify-content:space-evenly;
+        justify-content: space-evenly;
     }
 
     .cards {
@@ -372,13 +374,13 @@ p {
         font-size: 0.9rem;
     }
 
-    #botton{
+    #botton {
         flex-direction: column;
         align-items: center;
-  
+
     }
 
-    .bottom-txt{
-        padding: 0px; 
+    .bottom-txt {
+        padding: 0px;
     }
 }
