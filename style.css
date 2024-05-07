@@ -33,10 +33,7 @@ nav {
     z-index: 1;
 }
 
-iframe{
-    border: 0.5px solid #cdd4dd;
-    border-radius: 0.3em;
-}
+
 
 img {
     margin-top: 7px;
@@ -158,8 +155,12 @@ img {
     color: #292c39;
 }
 
+.li-event{
+    color: black;
+}
+
 #past-events,
-#chapters {
+#chapters, #up-events {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -213,6 +214,9 @@ p {
     border-radius: 0.3em;
 }
 
+iframe{
+    border-radius: 0.3em;
+}
 .load {
     margin-top: 2em;
     align-self: center;
@@ -221,6 +225,7 @@ p {
     align-items: center;
     width: 100%;
     padding: 5px;
+    flex-direction: row;
 
 }
 
@@ -359,9 +364,10 @@ p {
 
     .load {
         margin-top: 1em;
+        flex-direction: column;
     }
 
-    .about-text-content ul {
+    .about-text-content  {
         padding-left: 0;
     }
 
@@ -369,7 +375,7 @@ p {
         padding: 0em;
     }
 
-    .about-text-content ul {
+    .about-text-content {
         padding-left: 0;
     }
 
