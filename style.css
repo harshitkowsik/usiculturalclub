@@ -108,6 +108,11 @@ img {
     width: 1.5rem;
     margin-right: 0.7em;
     opacity: 0.8;
+    transition: all ease 0.3s;
+}
+
+.social-img:hover{
+    transform: scale(110%);
 }
 
 .join {
