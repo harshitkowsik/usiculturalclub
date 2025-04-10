@@ -55,16 +55,16 @@ img {
 }
 
 #nav-text-logo {
-    margin-right: 3em;
-    margin-bottom: 2px;
+/*     margin-right: 3em;
+    margin-bottom: 2px; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #nav-text {
-    margin-left: 3em;
-    margin-bottom: 2px;
+/*     margin-left: 3em;
+    margin-bottom: 2px; */
 }
 
 #home {
