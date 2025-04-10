@@ -161,7 +161,7 @@ img {
 .about-text-content {
     margin-top: 10px;
     font-weight: 500;
-    font-size: 1em;
+    font-size: 16px;
     color: #292c39;
 }
 
@@ -354,7 +354,7 @@ iframe{
     }
 
     .about-text-content {
-        font-size: 0.9em;
+        font-size: 14px;
     }
 
     .bottom-txt-content {
