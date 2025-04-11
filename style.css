@@ -186,7 +186,7 @@ img {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 15vw;
+    width: auto;
     flex-direction: column;
     padding: 20px;
     margin-top: 16px;
