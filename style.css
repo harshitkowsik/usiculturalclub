@@ -1,11 +1,11 @@
 * {
     text-decoration: none;
+    transition: all ease 0.3s;
 }
 
-html {
+html{
     scroll-behavior: smooth;
 }
-
 
 body {
     width: 100%;
@@ -28,7 +28,7 @@ a {
 
 nav {
     height: 11vh;
-    border-bottom: 0.4px solid #949ba3;
+    box-shadow: 0px 0.4px 0.4px #949ba3;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -48,7 +48,7 @@ img {
 }
 
 .nav-text-logo {
-    font-size: 1.2em;
+    font-size: 1.0em;
     margin-right: 20px;
     color: #292c32;
 }
@@ -60,17 +60,13 @@ img {
 }
 
 #nav-text-logo {
-/*     margin-right: 3em;
-    margin-bottom: 2px; */
+    font-size: 1.0em;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#nav-text {
-/*     margin-left: 3em;
-    margin-bottom: 2px; */
-}
+
 
 #home {
     margin-top: 12vh;
@@ -116,7 +112,7 @@ img {
     transition: all ease 0.3s;
 }
 
-.social-img:hover{
+.social-img:hover {
     transform: scale(110%);
 }
 
@@ -151,7 +147,6 @@ img {
     align-self: center;
 }
 
-
 .about-text-main {
     margin-top: 10px;
     font-weight: 500;
@@ -162,16 +157,17 @@ img {
 .about-text-content {
     margin-top: 10px;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 16px;
     color: #292c39;
 }
 
-.li-event{
+.li-event {
     color: black;
 }
 
 #past-events,
-#chapters, #up-events {
+#chapters,
+#up-events {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -198,7 +194,7 @@ img {
 }
 
 .cards p{
-    font-size: 13px ;
+    font-size: 14px ;
 }
 
 .profile {
@@ -230,9 +226,10 @@ p {
     border-radius: 0.3em;
 }
 
-iframe{
+iframe {
     border-radius: 0.3em;
 }
+
 .load {
     margin-top: 2em;
     align-self: center;
@@ -262,8 +259,9 @@ iframe{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding: 1em;
     flex-direction: row;
-    border-top : 0.4px solid #949ba3;
+    box-shadow: 0px -0.5px 0px #949ba3;
     text-decoration: none;
 }
 
@@ -280,8 +278,13 @@ iframe{
     margin-bottom: 10px;
 }
 
-@media only screen and (max-width: 1100px), only screen and (orientation: portrait) {
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+@media only screen and (max-width: 650px), only screen and (orientation: portrait){
     body {
         overflow-x: hidden;
     }
@@ -355,7 +358,7 @@ iframe{
     }
 
     .about-text-content {
-        font-size: 14px;
+        font-size: 0.9em;
     }
 
     .bottom-txt-content {
@@ -383,7 +386,7 @@ iframe{
         flex-direction: column;
     }
 
-    .about-text-content  {
+    .about-text-content {
         padding-left: 0;
     }
 
@@ -395,6 +398,9 @@ iframe{
         padding-left: 0;
     }
 
+    .about-text-content {
+        font-size: 0.9rem;
+    }
 
     #botton {
         flex-direction: column;
