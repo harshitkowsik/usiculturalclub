@@ -151,6 +151,10 @@ img {
     align-self: center;
 }
 
+#about p {
+    font-size : 15px
+}
+
 .about-text-main {
     margin-top: 10px;
     font-weight: 500;
@@ -351,6 +355,10 @@ iframe{
         font-size: 2em;
         font-weight: bold;
     }
+
+    #about p {
+    font-size : 12px
+}
 
     .about-text-content {
         font-size: 14px;
