@@ -284,9 +284,10 @@ iframe{
 }
 
 @media only screen and (max-width: 1100px), only screen and (orientation: portrait) {
-    p{ 
-        font-size : 16px;
-    }
+   .cards p{
+    font-size: 14px ;
+}
+    
     body {
         overflow-x: hidden;
     }
@@ -360,7 +361,7 @@ iframe{
     }
 
     #about p {
-    font-size : 12px
+    font-size : 12px;
 }
 
     .about-text-content {
