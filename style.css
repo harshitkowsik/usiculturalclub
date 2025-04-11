@@ -28,7 +28,7 @@ a {
 
 nav {
     height: 11vh;
-    border-bottom: 0.4px #949ba3;
+    border-bottom: 0.4px solid #949ba3;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -261,7 +261,7 @@ iframe {
     align-items: center;
     padding: 1em 0px;
     flex-direction: row;
-    border-top: 0.4px #949ba3;
+    border-top: 0.4px solid #949ba3;
     text-decoration: none;
 }
 
