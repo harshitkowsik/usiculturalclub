@@ -416,6 +416,10 @@ iframe {
     animation: blink 1.5s ease-in-out infinite;
   }
 
+#redirect-link{
+    cursor: pointer;
+}
+
   @keyframes blink {
     0%, 50%, 100% { opacity: 1; }
     25%, 75% { opacity: 0; }
