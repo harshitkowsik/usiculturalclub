@@ -417,7 +417,7 @@ iframe {
   }
 
 #redirect-link{
-    cursor: pointer;
+/*     cursor: pointer; */
 }
 
   @keyframes blink {
